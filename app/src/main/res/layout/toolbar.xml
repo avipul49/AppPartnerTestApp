@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    app:popupTheme="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@android:color/black">
+
+    <com.apppartner.androidprogrammertest.views.TextViewWithFont
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toolbar Title"
+        android:textSize="@dimen/header_text_size"
+        android:textColor="@color/light_text"
+        custom:font="Jelloween - Machinato ExtraLight.ttf"
+        android:id="@+id/toolbar_title" />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/toolbar_progress_bar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="10dp"
+        android:indeterminateTint="@android:color/white"
+        android:indeterminateTintMode="src_in"
+        android:layout_gravity="right" />
+</android.support.v7.widget.Toolbar>

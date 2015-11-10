@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/user_image"
+        android:layout_width="55dp"
+        android:layout_height="55dp" />
+
+    <com.apppartner.androidprogrammertest.views.TextViewWithFont
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        custom:font="Jelloween - Machinato.ttf"
+        android:textSize="@dimen/chat_name_text_size"
+        android:layout_toRightOf="@id/user_image"
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_text" />
+
+    <com.apppartner.androidprogrammertest.views.TextViewWithFont
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="@dimen/chat_message_text_size"
+        custom:font="Jelloween - Machinato Light.ttf"
+        android:layout_toRightOf="@id/user_image"
+        android:layout_below="@id/usernameTextView"
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_text"
+        android:layout_marginBottom="15dp" />
+
+</RelativeLayout>
