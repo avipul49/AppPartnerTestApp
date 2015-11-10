@@ -46,5 +46,6 @@ http://stackoverflow.com/questions/10682019/android-two-finger-rotation
 3. Dragging image: Followed following tutorial for implementing drag feature:
 http://code.tutsplus.com/tutorials/android-gesture--mobile-2239
 
-
+4. Circular image: Used custom view from 
+https://github.com/hdodenhof/CircleImageView
 
