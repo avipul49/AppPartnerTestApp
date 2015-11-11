@@ -14,7 +14,6 @@
         custom:font="Jelloween - Machinato.ttf"
         android:layout_marginTop="100dp"
         android:id="@+id/username"
-        android:text="SuperBoise"
         android:hint="username"
         android:layout_below="@id/toolbar"
         style="@style/App_EditTextStyle" />
@@ -24,7 +23,6 @@
         android:inputType="textPassword"
         style="@style/App_EditTextStyle"
         android:hint="password"
-        android:text="qwerty"
         android:layout_below="@id/username"
         android:id="@+id/password" />
 
